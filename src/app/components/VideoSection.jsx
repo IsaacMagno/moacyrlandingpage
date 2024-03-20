@@ -3,16 +3,16 @@ import React from "react";
 const VideoSection = () => {
   return (
     <div className="relative w-full h-full">
-      <div className="absolute inset-0 flex flex-col items-center justify-center gap-10">
+      <div className="absolute inset-0 flex flex-col items-center justify-center gap-10 px-5">
         <h1
-          className="text-white text-center z-10 max-w-[50vw] text-4xl"
+          className="responsive-video-section"
           style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.4)" }}
         >
           No competitivo mundo dos negócios, o sucesso está diretamente ligado à
           eficácia do seu planejamento financeiro.
         </h1>
         <h1
-          className="text-white text-center z-10 max-w-[50vw] text-4xl"
+          className="responsive-video-section"
           style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.4)" }}
         >
           É por isso que estamos animados em apresentar a vocês o nosso mais

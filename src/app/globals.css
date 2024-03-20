@@ -23,14 +23,39 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-
-  background-color: #37372b;
+  background-color: #20201c;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+/* Main Section */
+.responsive-title {
+  @apply text-2xl lg:text-5xl lmd:text-6xl xlg:text-7xl;
+}
+
+/* Video Section */
+.responsive-video-section {
+  @apply text-white text-center z-10 lg:text-2xl lmd:text-3xl xlg:text-4xl lg:max-w-[50vw];
+}
+
+/* Components Section */
+.responsive-section-title {
+  @apply text-yellow-500 text-[1.1rem] lmd:text-4xl xlg:text-5xl;
+}
+
+.responsive-section-content {
+  @apply text-xs lg:text-base lmd:text-xl xlg:text-2xl;
+}
+
+.responsive-section-image {
+  @apply h-[10rem] w-[20rem] lg:h-[16.5rem] lg:w-[24rem] lmd:h-[20rem] lmd:w-[30rem]  xlg:h-[25rem] xlg:w-[35rem] relative;
+}
+
+.responsive-section-container {
+  @apply flex flex-col lg:max-w-[35vw] gap-3 lg:gap-6 lmd:gap-12 lg:justify-center px-5 lg:px-0;
 }
 
 strong,

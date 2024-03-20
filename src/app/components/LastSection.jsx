@@ -4,11 +4,13 @@ import React from "react";
 const LastSection = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center relative gap-20">
-      <div className="text-center flex flex-col gap-4">
-        <h1 className="text-7xl">Gasparini Contabilidade,</h1>
-        <h2 className="text-7xl">há mais de 50 anos ajudando empresas!</h2>
+      <div className="text-center flex flex-col lg:gap-4 px-5 lg:px-0">
+        <h1 className="responsive-title">Gasparini Contabilidade,</h1>
+        <h2 className="responsive-title">
+          há mais de 50 anos ajudando empresas!
+        </h2>
       </div>
-      <div className="text-center max-w-[50vw]">
+      <div className="text-center px-5 lg:px-0 lg:max-w-[50vw]">
         <span>
           Invista no seu futuro financeiro com nosso serviço de Planejamento e
           Controle Financeiro e dê um passo à frente na realização dos seus

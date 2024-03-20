@@ -6,10 +6,10 @@ const MainSection = () => {
   const [hover, setHover] = useState(false);
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center relative gap-20">
+    <div className="min-h-screen flex flex-col items-center justify-center relative gap-20 px-5">
       <div className="text-center flex flex-col gap-4">
-        <h1 className="text-7xl">Invista no futuro</h1>
-        <h2 className="text-7xl">financeiro da sua empresa!</h2>
+        <h1 className="responsive-title">Invista no futuro</h1>
+        <h2 className="responsive-title">financeiro da sua empresa!</h2>
       </div>
       <div className="text-center">
         <p>Como está a saúde financeira da sua empresa hoje?</p>

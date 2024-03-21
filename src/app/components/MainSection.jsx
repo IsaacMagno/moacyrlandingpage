@@ -1,12 +1,15 @@
 "use client";
 import { useState } from "react";
 import { ArrowDown } from "lucide-react";
+import Image from "next/image";
+import Vector from "/public/Vector.png";
 
 const MainSection = () => {
   const [hover, setHover] = useState(false);
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center relative gap-20 px-5">
+      <Image src={Vector} cointain className="absolute -z-50 opacity-40" />
       <div className="text-center flex flex-col gap-4">
         <h1 className="responsive-title">Invista no futuro</h1>
         <h2 className="responsive-title">financeiro da sua empresa!</h2>

@@ -23,7 +23,6 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: #20201c;
 }
 
 @layer utilities {
@@ -56,6 +55,36 @@ body {
 
 .responsive-section-container {
   @apply flex flex-col lg:max-w-[35vw] gap-3 lg:gap-6 lmd:gap-12 lg:justify-center px-5 lg:px-0;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; /* Inicia totalmente visível */
+  }
+  90% {
+    opacity: 1; /* Opacidade reduzida */
+  }
+  100% {
+    opacity: 0; /* Fica totalmente transparente */
+  }
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: 150px; /* Ajuste conforme necessário para cobrir a outra div */
+  }
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    right: 150px; /* Começa no ponto final da animação moveRightToLeft */
+  }
+  100% {
+    right: 0; /* Volta para a posição inicial */
+  }
 }
 
 strong,

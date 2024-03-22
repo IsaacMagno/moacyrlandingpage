@@ -1,5 +1,6 @@
 import "./globals.css";
 import TopBar from "./components/layout/TopBar";
+import Footer from "./components/layout/Footer";
 
 export const metadata = {
   title: "Gasparini Contabilidade",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body className="bg-gradient-to-t from-[#3b3b3a] from-[96%] via-[#454543] to-[#646455] ">
         <TopBar />
         {children}
+        <Footer />
       </body>
     </html>
   );

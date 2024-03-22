@@ -27,14 +27,18 @@ const TopBar = () => {
 
   return (
     <div
-      className="h-20 pt-5 px-24 flex  justify-between"
+      className="h-10 lmd:h-14 xlg:h-20 pt-2 lmd:pt-5 px-5 lg:px-14 lmd:px-24 flex justify-between items-center"
       style={{ position: "fixed", top: 0, width: "100%", zIndex: 1 }}
     >
-      <div className="h-full w-[15.5rem] relative flex gap-2">
+      <Link
+        className="h-full w-[6.7rem]  lg:w-[11rem] lmd:w-[15.5rem] relative flex gap-2"
+        href="https://moacyrcontabil.com.br/inicio"
+        target="blank"
+      >
         <div>
           <Image
             src={logoText}
-            className={`min-h-full w-auto py-2 staticDiv ${
+            className={`w-16 lg:w-28 py-2 lmd:min-h-full lmd:w-auto  ${
               scrollPosition > 150
                 ? "transform transition ease-out duration-700 opacity-0"
                 : "transform transition ease-in duration-1000 delay-[400ms] opacity-1"
@@ -44,7 +48,8 @@ const TopBar = () => {
         <div>
           <Image
             src={logoIcon}
-            className={`min-h-full w-auto`}
+            className={`w-10 lg:w-14 lmd:min-h-full lmd:w-auto
+            `}
             style={{
               animation: noTopo
                 ? "moveLeftToRight 1s linear forwards"
@@ -54,21 +59,23 @@ const TopBar = () => {
             }}
           />
         </div>
-      </div>
+      </Link>
 
-      <div className="flex items-center gap-12">
+      <div className="flex items-center gap-2 lg:gap-6 lmd:gap-12">
         <Link
           href="https://moacyrcontabil.com.br/inicio"
-          className="flex items-end text-yellow-500 gap-2"
+          className="flex items-center lmd:items-end text-yellow-500 gap-2"
           target="blank"
         >
-          <p>Conheça nossas soluções</p>
-          <ArrowRight className="w-6" />
+          <p className="max-w-[9rem] text-right lg:text-left lg:max-w-full">
+            Conheça nossas soluções
+          </p>
+          <ArrowRight className="w-4 lmd:w-6" />
         </Link>
 
         <Link
           href="https://moacyrcontabil.com.br/inicio"
-          className="py-3 px-2 border border-yellow-500 text-yellow-500 rounded-2xl hover:bg-yellow-500 hover:text-black"
+          className="lg:py-1 lmd:py-3 px-2 border border-yellow-500 text-yellow-500 rounded-2xl hover:bg-yellow-500 hover:text-black hidden lg:block"
           target="blank"
         >
           Solicitar Orçamento

@@ -7,7 +7,7 @@ import BudgetButton from "./layout/budgetButton";
 const LastSection = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center relative gap-20">
-      <Image src={Vector} cointain className="absolute -z-50" />
+      <Image src={Vector} cointain className="absolute -z-50 opacity-40" />
       <div className="text-center flex flex-col lg:gap-4 px-5 lg:px-0">
         <h1 className="responsive-title">Gasparini Contabilidade,</h1>
         <h2 className="responsive-title">

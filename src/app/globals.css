@@ -74,16 +74,56 @@ body {
     right: 0;
   }
   100% {
-    right: 150px; /* Ajuste conforme necessário para cobrir a outra div */
+    right: 150px;
   }
 }
 
 @keyframes moveLeftToRight {
   0% {
-    right: 150px; /* Começa no ponto final da animação moveRightToLeft */
+    right: 150px;
   }
   100% {
-    right: 0; /* Volta para a posição inicial */
+    right: 0;
+  }
+}
+
+@media (max-width: 1440px) {
+  @keyframes moveRightToLeft {
+    0% {
+      right: 0;
+    }
+    100% {
+      right: 100px;
+    }
+  }
+
+  @keyframes moveLeftToRight {
+    0% {
+      right: 100px;
+    }
+    100% {
+      right: 0;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  @keyframes moveRightToLeft {
+    0% {
+      right: 0;
+    }
+    100% {
+      right: 70px;
+    }
+  }
+
+  @keyframes moveLeftToRight {
+    0% {
+      right: 70px;
+    }
+    100% {
+      right: 0;
+    }
   }
 }
 

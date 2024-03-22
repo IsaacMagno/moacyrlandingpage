@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Vector from "/public/Vector.png";
 import Image from "next/image";
-import BudgetButton from "./layout/budgetButton";
+import BudgetButton from "./layout/BudgetButton";
 
 const LastSection = () => {
   return (

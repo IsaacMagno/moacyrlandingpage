@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import logoIcon from "/public/logoIcon.png";
 import logoText from "/public/logoText.png";
-import BudgetButton from "./budgetButton";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 

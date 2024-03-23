@@ -3,8 +3,8 @@ import React from "react";
 
 const ComponentSections = ({ titleText, contentText, imageSrc }) => {
   return (
-    <section className="flex flex-col gap-4 lg:gap-8 lmd:gap-12 pt-6 lg:pt-0 lmd:px-32 ">
-      <div className="flex flex-col-reverse lg:flex-row justify-evenly items-center gap-4">
+    <section className="flex flex-col gap-4 lg:gap-8 lmd:gap-12 pt-6 lg:pt-0  lg:px-14 lmd:px-24">
+      <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-4">
         <div className="responsive-section-container">
           <h1 className="responsive-section-title">{titleText[0]}</h1>
           <p className="responsive-section-content">{contentText[0]}</p>
@@ -14,7 +14,7 @@ const ComponentSections = ({ titleText, contentText, imageSrc }) => {
         </div>
       </div>
 
-      <div className="flex flex-col-reverse lg:flex-row-reverse justify-evenly items-center gap-3">
+      <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center gap-3">
         <div className="responsive-section-container">
           <h1 className="responsive-section-title">{titleText[1]}</h1>
           <p className="responsive-section-content">{contentText[1]}</p>

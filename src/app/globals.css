@@ -93,6 +93,26 @@ body {
       right: 0;
     }
     100% {
+      right: 180px;
+    }
+  }
+
+  @keyframes moveLeftToRight {
+    0% {
+      right: 180px;
+    }
+    100% {
+      right: 0;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  @keyframes moveRightToLeft {
+    0% {
+      right: 0;
+    }
+    100% {
       right: 100px;
     }
   }
@@ -107,19 +127,19 @@ body {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 360px) {
   @keyframes moveRightToLeft {
     0% {
       right: 0;
     }
     100% {
-      right: 70px;
+      right: 65px;
     }
   }
 
   @keyframes moveLeftToRight {
     0% {
-      right: 70px;
+      right: 65px;
     }
     100% {
       right: 0;

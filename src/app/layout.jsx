@@ -13,7 +13,9 @@ export default function RootLayout({ children }) {
       <body className="bg-gradient-to-t from-[#3b3b3a] from-[96%] via-[#454543] to-[#646455] ">
         <TopBar />
         {children}
-        <Footer />
+        <div>
+          <Footer />
+        </div>
       </body>
     </html>
   );

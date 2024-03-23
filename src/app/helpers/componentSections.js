@@ -5,7 +5,7 @@ import ApuraçãodaMargemdeLucro from "/public/ApuraçãodaMargemdeLucro.webp";
 import AperfeiçoamentodoControledasContas from "/public/AperfeiçoamentodoControledasContas.png";
 import ApuracaodeFraudeseDesviosFinanceirosProtegemosoqueeSeu from "/public/ApuracaodeFraudeseDesviosFinanceirosProtegemosoqueeSeu.jpg";
 import AcompanhamentodaPerformanceFinanceira from "/public/AcompanhamentodaPerformanceFinanceira.jpg";
-import loremIpsum from "/public/loremIpsum.png";
+import ConsultoriaTributaria from "/public/ConsultoriaTributaria.jpg";
 
 export const componentSections = [
   {
@@ -45,11 +45,14 @@ export const componentSections = [
     ],
   },
   {
-    titleText: ["Acompanhamento da Performance Financeira", "Lorem ipsum"],
+    titleText: [
+      "Acompanhamento da Performance Financeira",
+      "Consultoria Tributária",
+    ],
     contentText: [
       "Apresentamos mensalmente os pontos que merecem atenção e precisam ser corrigidos, oferecendo sugestões de melhoria. Acompanhamos esses pontos até que sejam corrigidos.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Oferecemos soluções inteligentes para otimizar sua carga tributária, garantindo que sua empresa esteja em conformidade com as leis fiscais e aproveite ao máximo os benefícios fiscais disponíveis. Nosso planejamento tributário estratégico ajuda a minimizar os impostos e maximizar os lucros.",
     ],
-    imageSrc: [AcompanhamentodaPerformanceFinanceira, loremIpsum],
+    imageSrc: [AcompanhamentodaPerformanceFinanceira, ConsultoriaTributaria],
   },
 ];

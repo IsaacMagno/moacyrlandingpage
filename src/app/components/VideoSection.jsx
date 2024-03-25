@@ -2,7 +2,7 @@ import React from "react";
 
 const VideoSection = () => {
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-full">
       <div className="absolute inset-0 flex flex-col items-center justify-center gap-10 px-5">
         <h1
           className="responsive-video-section"
@@ -20,21 +20,15 @@ const VideoSection = () => {
           para dar suporte a empresas como a sua!
         </h1>
       </div>
-      <div className="absolute inset-0 flex items-center justify-center z-[1]">
+      <div className="absolute inset-0 flex items-center justify-center">
         <div className="bg-black opacity-60 w-full h-full"></div>
       </div>
-
-      <div className="absolute inset-0">
-        <iframe
-          src="https://player.vimeo.com/video/927190772?autoplay=1&loop=1&controls=0&muted=1"
-          width="100%"
-          height="100%"
-          frameBorder="0"
-          allow="autoplay; fullscreen"
-          allowFullScreen
-          title="Vimeo video"
-        ></iframe>
-      </div>
+      <video autoPlay loop muted className="w-full h-full object-cover">
+        <source
+          src="https://ia600203.us.archive.org/8/items/fullvideo_202403/fullvideo.mp4"
+          type="video/mp4"
+        />
+      </video>
     </div>
   );
 };

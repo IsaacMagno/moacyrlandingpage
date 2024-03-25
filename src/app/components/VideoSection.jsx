@@ -24,7 +24,7 @@ const VideoSection = () => {
         <div className="bg-black opacity-60 w-full h-full"></div>
       </div>
       <video autoPlay loop muted className="w-full h-full object-cover">
-        <source src="/fullVideo.mp4" type="video/mp4" />
+        <source src="/public/fullvideo.mp4" type="video/mp4" />
       </video>
     </div>
   );

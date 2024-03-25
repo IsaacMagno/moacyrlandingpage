@@ -66,15 +66,18 @@ const TopBar = () => {
           className="flex items-center lmd:items-end text-yellow-500 gap-2"
           target="blank"
         >
-          <p className="max-w-[9rem] text-right lg:text-left lg:max-w-full">
+          <p className="hidden lg:block text-right lg:text-left lg:max-w-full">
             Conheça nossas soluções
+          </p>
+          <p className="lg:hidden text-right lg:text-left lg:max-w-full">
+            Nossas soluções
           </p>
           <ArrowRight className="w-4 lmd:w-6" />
         </Link>
 
         <Link
           href="https://moacyrcontabil.com.br/inicio"
-          className="lg:py-1 lmd:py-3 px-2 border border-yellow-500 text-yellow-500 rounded-2xl hover:bg-yellow-500 hover:text-black hidden lg:block"
+          className="lg:py-1 lmd:py-2 px-2 lmd:px-3 border border-yellow-500 text-yellow-500 rounded-2xl hover:bg-yellow-500 hover:text-black hidden lg:block "
           target="blank"
         >
           Solicitar Orçamento

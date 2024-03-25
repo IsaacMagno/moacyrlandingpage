@@ -7,6 +7,13 @@ import Vector from "/public/Vector.png";
 const MainSection = () => {
   const [hover, setHover] = useState(false);
 
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center relative gap-20 px-5">
       <Image src={Vector} cointain className="absolute -z-50 opacity-60" />
@@ -25,6 +32,7 @@ const MainSection = () => {
         className="absolute bottom-10 flex flex-col items-center cursor-pointer transition-all duration-500 text-yellow-500"
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
+        onClick={() => scrollToBottom()}
       >
         <p
           className={`transform ${

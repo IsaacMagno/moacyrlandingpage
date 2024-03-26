@@ -3,7 +3,7 @@ import React from "react";
 
 const ComponentSections = ({ titleText, contentText, imageSrc }) => {
   return (
-    <section className="flex flex-col gap-4 lg:gap-8 lmd:gap-12 pt-6 lg:pt-0  lg:px-14 lmd:px-24">
+    <section className="flex flex-col min-h-screen justify-center items-center gap-4 pt-6 ">
       <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-4">
         <div className="responsive-section-container">
           <h1 className="responsive-section-title">{titleText[0]}</h1>

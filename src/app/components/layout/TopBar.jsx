@@ -26,18 +26,18 @@ const TopBar = () => {
 
   return (
     <div
-      className="h-10 lmd:h-14 xlg:h-20 pt-2 lmd:pt-5 px-5 lg:px-14 lmd:px-24 flex justify-between items-center"
+      className="h-10 lmd:h-14 xlg:h-20 pt-1 lg:pt-2 px-5 lg:px-14 lmd:px-24 flex justify-between items-center backdrop-filter backdrop-blur-lg"
       style={{ position: "fixed", top: 0, width: "100%", zIndex: 1 }}
     >
       <Link
-        className="h-full w-[6.7rem]  lg:w-[9.3rem] lmd:w-[15.5rem] relative flex gap-2"
+        className="h-full w-[6.7rem] lg:w-[9.3rem] lmd:w-[13.5rem] relative flex gap-2"
         href="https://moacyrcontabil.com.br/inicio"
         target="blank"
       >
         <div>
           <Image
             src={logoText}
-            className={`w-16 lg:w-24 py-2 lmd:min-h-full lmd:w-auto  ${
+            className={`w-16 lg:w-24 lmd:w-36 pt-1  ${
               scrollPosition > 150
                 ? "transform transition ease-out duration-700 opacity-0"
                 : "transform transition ease-in duration-1000 delay-[400ms] opacity-1"
@@ -47,7 +47,7 @@ const TopBar = () => {
         <div>
           <Image
             src={logoIcon}
-            className={`w-10 lg:w-12 lmd:min-h-full lmd:w-auto
+            className={`w-8 lg:w-12 lmd:w-16
             `}
             style={{
               animation: noTopo
@@ -66,18 +66,16 @@ const TopBar = () => {
           className="flex items-center lmd:items-end text-yellow-500 gap-2"
           target="blank"
         >
-          <p className="hidden lg:block text-right lg:text-left lg:max-w-full">
+          <p className="hidden lg:block text-right lg:text-left">
             Conheça nossas soluções
           </p>
-          <p className="lg:hidden text-right lg:text-left lg:max-w-full">
-            Nossas soluções
-          </p>
-          <ArrowRight className="w-4 lmd:w-6" />
+          <p className="lg:hidden text-right lg:text-left">Nossas soluções</p>
+          {/* <ArrowRight className="w-4 lmd:w-6" /> */}
         </Link>
 
         <Link
           href="https://moacyrcontabil.com.br/inicio"
-          className="lg:py-1 lmd:py-2 px-2 lmd:px-3 border border-yellow-500 text-yellow-500 rounded-2xl hover:bg-yellow-500 hover:text-black hidden lg:block "
+          className="lg:py-1 lmd:py-2 px-2 lmd:px-3 border border-yellow-500 text-yellow-500 rounded-2xl hover:bg-yellow-500 hover:text-black hidden lg:block"
           target="blank"
         >
           Solicitar Orçamento

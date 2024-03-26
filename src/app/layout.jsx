@@ -1,11 +1,9 @@
 import "./globals.css";
 import TopBar from "./components/layout/TopBar";
 import Footer from "./components/layout/Footer";
+import { metadataInicial } from "./helpers/metadata.js";
 
-export const metadata = {
-  title: "Gasparini Contabilidade",
-  description: "Há mais de 50 anos atuando na área contábil.",
-};
+export const metadata = metadataInicial;
 
 export default function RootLayout({ children }) {
   return (

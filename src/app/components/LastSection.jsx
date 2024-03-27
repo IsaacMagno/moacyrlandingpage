@@ -18,9 +18,7 @@ const LastSection = () => {
         <span>
           Invista no seu futuro financeiro com nosso serviço de Planejamento e
           Controle Financeiro e dê um passo à frente na realização dos seus
-          objetivos empresariais! Não deixe que as finanças limitem o potencial
-          do seu negócio. Estamos aqui para impulsionar o seu sucesso
-          financeiro!
+          objetivos empresariais!
         </span>
       </div>
       <BudgetButton />

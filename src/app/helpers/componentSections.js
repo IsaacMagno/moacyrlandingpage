@@ -2,57 +2,57 @@ import FluxodeCaixaEstrategico from "/public/FluxodeCaixaEstrategico.png";
 import AcompanhamentoDetalhadodasDespesas from "/public/AcompanhamentoDetalhadodasDespesas.png";
 import GestaodeContasaPagareaReceber from "/public/GestaodeContasaPagareaReceber.png";
 import ApuraçãodaMargemdeLucro from "/public/ApuraçãodaMargemdeLucro.webp";
-import AperfeiçoamentodoControledasContas from "/public/AperfeiçoamentodoControledasContas.png";
-import ApuracaodeFraudeseDesviosFinanceirosProtegemosoqueeSeu from "/public/ApuracaodeFraudeseDesviosFinanceirosProtegemosoqueeSeu.jpg";
-import AcompanhamentodaPerformanceFinanceira from "/public/AcompanhamentodaPerformanceFinanceira.jpg";
-import ConsultoriaTributaria from "/public/ConsultoriaTributaria.jpg";
+// import AperfeiçoamentodoControledasContas from "/public/AperfeiçoamentodoControledasContas.png";
+// import ApuracaodeFraudeseDesviosFinanceirosProtegemosoqueeSeu from "/public/ApuracaodeFraudeseDesviosFinanceirosProtegemosoqueeSeu.jpg";
+// import AcompanhamentodaPerformanceFinanceira from "/public/AcompanhamentodaPerformanceFinanceira.jpg";
+// import ConsultoriaTributaria from "/public/ConsultoriaTributaria.jpg";
 
 export const componentSections = [
   {
     titleText: [
-      "Fluxo de Caixa Estratégico",
+      "Aperfeiçoamento do Controle das Contas",
       "Acompanhamento Detalhado das Despesas",
     ],
     contentText: [
-      "Evite a necessidade de empréstimos com nosso planejamento do Fluxo de Caixa. O planejamento estabelece medidas que irão fortalecer oseu Fluxo de Caixa ao longo do ano. Nossa abordagem proativa ajuda a manter seu negócio sólido e resistente.",
-      "A análise minuciosa das despesas é a chave para evitar surpresas desagradáveis e buscar a redução de custos. Identificamos os maiores aumentos ocorridos, e também o que precisa ser reduzido para garantir a saúde financeira de sua empresa.",
+      "Primeiramente preparamos sua equipe para o correto controle e organização das contas, através de procedimentos padronizados. O controle das contas além de gerar informações, auxilia na inibição de fraudes e desvios financeiros em sua empresa.",
+      "Mensalmente faremos uma análise minuciosa das despesas, buscando a redução de custos. Assim identificamos se alguma conta está acima da referência de mercado, para que seja então reduzida, melhorando assim o seu Fluxo de Caixa. ",
     ],
     imageSrc: [FluxodeCaixaEstrategico, AcompanhamentoDetalhadodasDespesas],
   },
   {
     titleText: [
       "Gestão de Contas a Pagar e a Receber",
-      "Apuração da Margem de Lucro",
+      "Fluxo de Caixa Estratégico",
     ],
     contentText: [
-      "O volume dessas contas pode ser a diferença entre o sucesso e o fracasso. Trabalhamos para buscar o equilíbrio dessas contas, ajudando a manter seu negócio longe de situações que possam prejudicar sua estabilidade financeira.",
-      "A Margem de Lucro não é apenas um número, é a medida real do sucesso da sua empresa. Nossa expertise em apurar essa métrica crítica ajudará a impulsionar seus resultados financeiros e a definir metas realistas para o crescimento.  ",
+      "O volume dessas contas pode ser a diferença entre o sucesso e o fracasso do seu negócio. Trabalhamos para buscar o equilíbrio dessas contas, a fim de manter a estabilidade financeira de sua empresa.",
+      "Através de medidas estratégicas, buscaremos o fortalecimento do seu Fluxo de Caixa ao longo do ano, para que a empresa tenha independência financeira e não necessite de empréstimos de bancários.",
     ],
     imageSrc: [GestaodeContasaPagareaReceber, ApuraçãodaMargemdeLucro],
   },
-  {
-    titleText: [
-      "Aperfeiçoamento do Controle das Contas",
-      "Apuração de Fraudes e Desvios Financeiros: Protegemos o que é Seu!",
-    ],
-    contentText: [
-      "Preparamos sua equipe para o correto controle e organização das contas. Isso não apenas otimiza o processo, mas também cria uma base sólida para o crescimento sustentável, além de inibir fraudes e desvios financeiros, protegendo o que é seu.",
-      "Com nossos rigorosos controles, não deixamos espaço para fraudes ou desvios prejudicarem seus recursos financeiros. Detectamos e inibimos qualquer atividade suspeita, garantindo a segurança financeira de sua empresa. Confie em nós para proteger o que é mais importante para o seu negócio.",
-    ],
-    imageSrc: [
-      AperfeiçoamentodoControledasContas,
-      ApuracaodeFraudeseDesviosFinanceirosProtegemosoqueeSeu,
-    ],
-  },
-  {
-    titleText: [
-      "Acompanhamento da Performance Financeira",
-      "Consultoria Tributária",
-    ],
-    contentText: [
-      "Apresentamos mensalmente os pontos que merecem atenção e precisam ser corrigidos, oferecendo sugestões de melhoria. Acompanhamos esses pontos até que sejam corrigidos.",
-      "Oferecemos soluções inteligentes para otimizar sua carga tributária, garantindo que sua empresa esteja em conformidade com as leis fiscais e aproveite ao máximo os benefícios fiscais disponíveis. Nosso planejamento tributário estratégico ajuda a minimizar os impostos e maximizar os lucros.",
-    ],
-    imageSrc: [AcompanhamentodaPerformanceFinanceira, ConsultoriaTributaria],
-  },
+  // {
+  //   titleText: [
+  //     "Aperfeiçoamento do Controle das Contas",
+  //     "Apuração de Fraudes e Desvios Financeiros: Protegemos o que é Seu!",
+  //   ],
+  //   contentText: [
+  //     "Preparamos sua equipe para o correto controle e organização das contas. Isso não apenas otimiza o processo, mas também cria uma base sólida para o crescimento sustentável, além de inibir fraudes e desvios financeiros, protegendo o que é seu.",
+  //     "Com nossos rigorosos controles, não deixamos espaço para fraudes ou desvios prejudicarem seus recursos financeiros. Detectamos e inibimos qualquer atividade suspeita, garantindo a segurança financeira de sua empresa. Confie em nós para proteger o que é mais importante para o seu negócio.",
+  //   ],
+  //   imageSrc: [
+  //     AperfeiçoamentodoControledasContas,
+  //     ApuracaodeFraudeseDesviosFinanceirosProtegemosoqueeSeu,
+  //   ],
+  // },
+  // {
+  //   titleText: [
+  //     "Acompanhamento da Performance Financeira",
+  //     "Consultoria Tributária",
+  //   ],
+  //   contentText: [
+  //     "Apresentamos mensalmente os pontos que merecem atenção e precisam ser corrigidos, oferecendo sugestões de melhoria. Acompanhamos esses pontos até que sejam corrigidos.",
+  //     "Oferecemos soluções inteligentes para otimizar sua carga tributária, garantindo que sua empresa esteja em conformidade com as leis fiscais e aproveite ao máximo os benefícios fiscais disponíveis. Nosso planejamento tributário estratégico ajuda a minimizar os impostos e maximizar os lucros.",
+  //   ],
+  //   imageSrc: [AcompanhamentodaPerformanceFinanceira, ConsultoriaTributaria],
+  // },
 ];

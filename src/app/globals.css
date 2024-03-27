@@ -47,7 +47,7 @@ body {
 
 /* Components Section */
 .responsive-section-title {
-  @apply text-yellow-500 text-[1.1rem] lmd:text-4xl xlg:text-5xl;
+  @apply text-yellow-500 text-[1.3rem] lmd:text-[2.5rem]/[3rem] xlg:text-[3.3rem]/[3.5rem];
 }
 
 .responsive-section-content {
@@ -92,19 +92,39 @@ body {
   }
 }
 
+@media (min-width: 1920px) {
+  @keyframes moveRightToLeft {
+    0% {
+      right: 0;
+    }
+    100% {
+      right: 160px;
+    }
+  }
+
+  @keyframes moveLeftToRight {
+    0% {
+      right: 160px;
+    }
+    100% {
+      right: 0;
+    }
+  }
+}
+
 @media (max-width: 1440px) {
   @keyframes moveRightToLeft {
     0% {
       right: 0;
     }
     100% {
-      right: 180px;
+      right: 110px;
     }
   }
 
   @keyframes moveLeftToRight {
     0% {
-      right: 180px;
+      right: 110px;
     }
     100% {
       right: 0;

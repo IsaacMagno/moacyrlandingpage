@@ -26,18 +26,18 @@ const TopBar = () => {
 
   return (
     <div
-      className="h-10 lmd:h-14 xlg:h-20 pt-1 lg:pt-2 px-5 lg:px-14 lmd:px-24 flex justify-between items-center backdrop-filter backdrop-blur-lg"
+      className="h-10 lg:h-16 xlg:h-20 py-1 lg:py-2 px-5 lg:px-14 lmd:px-24 flex justify-between items-center backdrop-filter backdrop-blur-lg"
       style={{ position: "fixed", top: 0, width: "100%", zIndex: 1 }}
     >
       <Link
-        className="h-full w-[6.7rem] lg:w-[9.3rem] lmd:w-[13.5rem] relative flex gap-2"
+        className="h-full w-[6.7rem] lg:w-[9.3rem] lmd:w-[9rem] xlg:w-[13.5rem] relative flex gap-2"
         href="https://moacyrcontabil.com.br/inicio"
         target="blank"
       >
         <div>
           <Image
             src={logoText}
-            className={`w-16 lg:w-24 lmd:w-36 pt-1  ${
+            className={`w-16 lg:w-24 lmd:w-26 xlg:w-36 pt-1  ${
               scrollPosition > 150
                 ? "transform transition ease-out duration-700 opacity-0"
                 : "transform transition ease-in duration-1000 delay-[400ms] opacity-1"
@@ -47,7 +47,7 @@ const TopBar = () => {
         <div>
           <Image
             src={logoIcon}
-            className={`w-8 lg:w-12 lmd:w-16
+            className={`w-8 lg:w-12 lmd:w-11 xlg:w-16
             `}
             style={{
               animation: noTopo
@@ -66,10 +66,12 @@ const TopBar = () => {
           className="flex items-center lmd:items-end text-yellow-500 gap-2"
           target="blank"
         >
-          <p className="hidden lg:block text-right lg:text-left">
+          <p className="hidden lg:block text-right lg:text-left hover:text-white">
             Conheça nossas soluções
           </p>
-          <p className="lg:hidden text-right lg:text-left">Nossas soluções</p>
+          <p className="lg:hidden text-right lg:text-left hover:text-white">
+            Nossas soluções
+          </p>
           {/* <ArrowRight className="w-4 lmd:w-6" /> */}
         </Link>
 

@@ -16,17 +16,19 @@ const MainSection = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center relative gap-20 px-5">
-      <Image src={Vector} cointain className="absolute -z-50 opacity-60" />
+      <Image src={Vector} className="absolute -z-50 opacity-60" />
       <div className="text-center flex flex-col">
         <h1 className="responsive-title">Invista no futuro</h1>
         <h2 className="responsive-title">financeiro da sua empresa!</h2>
       </div>
       <div className="text-center">
-        <p>Como está a saúde financeira da sua empresa hoje?</p>
-        <span>
-          Você até possui o controle das contas, mas sabe como fazer um
-          planejamento financeiro?
-        </span>
+        <div className="flex flex-col gap-2">
+          <span>Como está a saúde financeira de sua empresa hoje?</span>
+          <span>Você trabalha, mas não vê o lucro?</span>
+          <span>
+            Até possui o controle das contas, mas não sabe como planejar?
+          </span>
+        </div>
       </div>
       <div
         className="absolute bottom-10 flex flex-col items-center cursor-pointer transition-all duration-500 text-yellow-500"

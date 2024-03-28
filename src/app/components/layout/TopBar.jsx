@@ -26,7 +26,9 @@ const TopBar = () => {
 
   return (
     <div
-      className="h-10 lg:h-16 xlg:h-20 py-1 lg:py-2 px-5 lg:px-14 lmd:px-24 flex justify-between items-center backdrop-filter backdrop-blur-lg"
+      className={`h-10 lg:h-16 xlg:h-20 py-1 lg:py-2 px-5 lg:px-14 lmd:px-24 flex justify-between items-center ${
+        !noTopo ? "backdrop-filter backdrop-blur-lg" : ""
+      }`}
       style={{ position: "fixed", top: 0, width: "100%", zIndex: 1 }}
     >
       <Link

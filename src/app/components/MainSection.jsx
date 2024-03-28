@@ -22,10 +22,14 @@ const MainSection = () => {
         <h2 className="responsive-title">financeiro da sua empresa!</h2>
       </div>
       <div className="text-center">
-        <div className="flex flex-col gap-2">
-          <span>Como está a saúde financeira de sua empresa hoje?</span>
-          <span>Você trabalha, mas não vê o lucro?</span>
-          <span>
+        <div className="flex flex-col gap-2 xlg:max-w-[65vw]">
+          <span className="text-xl lg:text-3xl lmd:text-4xl xlg:text-5xl">
+            Como está a saúde financeira de sua empresa hoje?
+          </span>
+          <span className="text-xl lg:text-3xl lmd:text-4xl xlg:text-5xl">
+            Você trabalha, mas não vê o lucro?
+          </span>
+          <span className="text-xl lg:text-3xl lmd:text-4xl xlg:text-5xl">
             Até possui o controle das contas, mas não sabe como planejar?
           </span>
         </div>

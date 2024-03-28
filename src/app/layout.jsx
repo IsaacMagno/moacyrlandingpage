@@ -2,11 +2,9 @@ import "./globals.css";
 import TopBar from "./components/layout/TopBar";
 import Footer from "./components/layout/Footer";
 import { Montserrat } from "next/font/google";
+import { metadataInicial } from "./helpers/metadata";
 
-export const metadata = {
-  title: "Gasparini Contabilidade",
-  description: "Há mais de 50 anos atuando na área contábil.",
-};
+export const metadata = metadataInicial;
 
 const montserrat = Montserrat({
   subsets: ["latin"],

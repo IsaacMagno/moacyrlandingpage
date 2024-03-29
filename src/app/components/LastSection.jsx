@@ -23,7 +23,9 @@ const LastSection = () => {
             objetivos empresariais!
           </span>
         </div>
-        <BudgetButton />
+        <div className="flex absolute bottom-32 lmd:bottom-[2rem] xlg:bottom-20">
+          <BudgetButton />
+        </div>
       </div>
       <Footer />
     </div>

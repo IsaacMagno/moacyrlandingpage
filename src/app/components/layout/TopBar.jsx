@@ -32,14 +32,14 @@ const TopBar = () => {
       style={{ position: "fixed", top: 0, width: "100%", zIndex: 1 }}
     >
       <Link
-        className="h-full w-[6.2rem] lg:w-[11rem] lmd:w-[11.5rem] xlg:w-[14.5rem] relative flex gap-2"
+        className="h-full w-[6.8rem] lg:w-[11rem] lmd:w-[11.5rem] xlg:w-[14.5rem] relative flex gap-2"
         href="https://moacyrcontabil.com.br/inicio"
         target="blank"
       >
         <div>
           <Image
             src={logoText}
-            className={`w-16 lg:w-[7.5rem] lmd:w-32 xlg:w-40 pt-1  ${
+            className={`w-[4.6rem] lg:w-[7.5rem] lmd:w-32 xlg:w-40 pt-1  ${
               scrollPosition > 150
                 ? "transform transition ease-out duration-700 opacity-0"
                 : "transform transition ease-in duration-1000 delay-[400ms] opacity-1"

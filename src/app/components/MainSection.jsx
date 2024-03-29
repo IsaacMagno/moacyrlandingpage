@@ -16,23 +16,21 @@ const MainSection = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center relative gap-20 px-5">
-      <Image src={Vector} className="absolute -z-50 opacity-60" />
-      <div className="text-center flex flex-col">
+      <Image src={Vector} className="absolute -z-50 opacity-65" />
+      {/* <div className="text-center flex flex-col">
         <h1 className="responsive-title">Invista no futuro</h1>
         <h2 className="responsive-title">financeiro da sua empresa!</h2>
-      </div>
-      <div className="text-center">
-        <div className="flex flex-col gap-2 xlg:max-w-[65vw]">
-          <span className="text-xl lg:text-3xl lmd:text-4xl xlg:text-5xl">
-            Como está a saúde financeira de sua empresa hoje?
-          </span>
-          <span className="text-xl lg:text-3xl lmd:text-4xl xlg:text-5xl">
-            Você trabalha, mas não vê o lucro?
-          </span>
-          <span className="text-xl lg:text-3xl lmd:text-4xl xlg:text-5xl">
-            Até possui o controle das contas, mas não sabe como planejar?
-          </span>
-        </div>
+      </div> */}
+      <div className="text-center grid grid-cols-3 gap-2 w-full h-[50vh]">
+        <span className="text-xl lg:text-3xl lmd:text-4xl xlg:text-5xl">
+          Como está a saúde financeira de sua empresa hoje?
+        </span>
+        <span className="text-xl lg:text-3xl lmd:text-4xl xlg:text-5xl flex items-center">
+          Você trabalha, mas não vê o lucro?
+        </span>
+        <span className="text-xl lg:text-3xl lmd:text-4xl xlg:text-5xl flex items-end">
+          Até possui o controle das contas, mas não sabe como planejar?
+        </span>
       </div>
       <div
         className="absolute bottom-10 flex flex-col items-center cursor-pointer transition-all duration-500 text-yellow-500"

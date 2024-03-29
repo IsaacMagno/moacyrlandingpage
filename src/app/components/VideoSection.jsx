@@ -3,7 +3,13 @@ import React from "react";
 const VideoSection = () => {
   return (
     <div className="relative w-full h-full">
-      <div className="absolute inset-0 flex flex-col items-center justify-center gap-10 px-5">
+      <div className="absolute inset-0 flex flex-col items-center justify-center gap-12 px-5">
+        <h1
+          className="responsive-video-section text-2xl lg:text-4xl lmd:text-5xl"
+          style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.4)" }}
+        >
+          Invista no futuro financeiro da sua empresa!
+        </h1>
         <h1
           className="responsive-video-section"
           style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.4)" }}
@@ -11,14 +17,6 @@ const VideoSection = () => {
           No competitivo mundo dos negócios, o sucesso de sua empresa está
           diretamente ligado à eficácia de um bom planejamento financeiro.
         </h1>
-        {/* <h1
-          className="responsive-video-section"
-          style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.4)" }}
-        >
-          É por isso que estamos animados em apresentar a vocês o nosso mais
-          recente serviço de Planejamento e Controle Financeiro, desenvolvido
-          para dar suporte a empresas como a sua!
-        </h1> */}
       </div>
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="bg-black opacity-60 w-full h-full"></div>

@@ -17,11 +17,8 @@ const MainSection = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center relative gap-20 px-5">
       <Image src={Vector} className="absolute -z-50 opacity-65" />
-      {/* <div className="text-center flex flex-col">
-        <h1 className="responsive-title">Invista no futuro</h1>
-        <h2 className="responsive-title">financeiro da sua empresa!</h2>
-      </div> */}
-      <div className="text-center grid grid-cols-3 gap-2 w-full h-[50vh]">
+
+      <div className="text-center lg:grid lg:grid-cols-3 flex flex-col justify-between gap-2 w-full h-[40vh]">
         <span className="text-xl lg:text-3xl lmd:text-4xl xlg:text-5xl">
           Como está a saúde financeira de sua empresa hoje?
         </span>

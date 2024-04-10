@@ -26,7 +26,7 @@ export const componentSections = [
     ],
     contentText: [
       "O volume dessas contas pode ser a diferença entre o sucesso e o fracasso do seu negócio. Trabalhamos para buscar o equilíbrio dessas contas, a fim de manter a estabilidade financeira de sua empresa.",
-      "Através de medidas estratégicas, buscaremos o fortalecimento do seu Fluxo de Caixa ao longo do ano, para que a empresa tenha independência financeira e não necessite de empréstimos de bancários.",
+      "Através de medidas estratégicas buscaremos o fortalecimento do seu Fluxo de Caixa ao longo do ano, para que a empresa tenha, além do lucro desejado, uma reserva financeira capaz de socorrer a empresa em momentos difíceis.",
     ],
     imageSrc: [GestaodeContasaPagareaReceber, ApuraçãodaMargemdeLucro],
   },

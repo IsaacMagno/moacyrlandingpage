@@ -8,14 +8,13 @@ const VideoSection = () => {
           className="responsive-video-section text-2xl lg:text-4xl lmd:text-5xl"
           style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.4)" }}
         >
-          Invista no futuro financeiro da sua empresa!
+          Como está a saúde financeira de sua empresa hoje?
         </h1>
         <h1
           className="responsive-video-section"
           style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.4)" }}
         >
-          No competitivo mundo dos negócios, o sucesso de sua empresa está
-          diretamente ligado à eficácia de um bom planejamento financeiro.
+          Você trabalha, mas não vê o lucro?
         </h1>
       </div>
       <div className="absolute inset-0 flex items-center justify-center">

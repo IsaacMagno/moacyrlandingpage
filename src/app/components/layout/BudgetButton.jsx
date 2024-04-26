@@ -7,7 +7,7 @@ const BudgetButton = () => {
       className="p-3 border border-yellow-500 text-yellow-500 rounded-2xl hover:bg-yellow-500 hover:text-black "
       target="blank"
     >
-      Solicitar Orçamento
+      Entre em contato
     </Link>
   );
 };

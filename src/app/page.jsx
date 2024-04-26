@@ -16,15 +16,15 @@ export default function Home() {
     <div id="main-section">
       <Fullpage>
         <FullPageSections>
-          <FullpageSection className="relative">
+          {/* <FullpageSection className="relative">
             <MainSection />
-          </FullpageSection>
+          </FullpageSection> */}
           <FullpageSection className="relative">
             <VideoSection />
           </FullpageSection>
-          <FullpageSection>
+          {/* <FullpageSection>
             <CallSection />
-          </FullpageSection>
+          </FullpageSection> */}
           {componentSections.map((section) => (
             <FullpageSection className="flex flex-col justify-center relative">
               <ComponentSections

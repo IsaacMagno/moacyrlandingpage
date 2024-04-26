@@ -23,6 +23,7 @@ const LastSection = () => {
             objetivos empresariais!
           </span>
         </div>
+        <span>Plano mensal a partir de R$ 150,00</span>
         <div className="flex absolute bottom-32 lmd:bottom-[2rem] xlg:bottom-20">
           <BudgetButton />
         </div>

@@ -22,9 +22,7 @@ export default function Home() {
           <FullpageSection className="relative">
             <VideoSection />
           </FullpageSection>
-          {/* <FullpageSection>
-            <CallSection />
-          </FullpageSection> */}
+
           {componentSections.map((section) => (
             <FullpageSection className="flex flex-col justify-center relative">
               <ComponentSections
@@ -34,6 +32,9 @@ export default function Home() {
               />
             </FullpageSection>
           ))}
+          <FullpageSection>
+            <CallSection />
+          </FullpageSection>
           <FullpageSection className="flex flex-col justify-center relative">
             <LastSection />
           </FullpageSection>

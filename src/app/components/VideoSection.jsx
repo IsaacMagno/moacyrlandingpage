@@ -1,6 +1,16 @@
-import React from "react";
+import { ArrowDown } from "lucide-react";
+import React, { useState } from "react";
 
 const VideoSection = () => {
+  const [hover, setHover] = useState(false);
+
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="relative w-full h-full">
       <div className="absolute inset-0 flex flex-col items-center justify-center gap-12 px-5">
@@ -16,6 +26,27 @@ const VideoSection = () => {
         >
           Você trabalha, mas não vê o lucro?
         </h1>
+        <div
+          className="absolute z-50 bottom-10 flex flex-col items-center cursor-pointer transition-all duration-500 text-yellow-500"
+          onMouseEnter={() => setHover(true)}
+          onMouseLeave={() => setHover(false)}
+          onClick={() => scrollToBottom()}
+        >
+          <p
+            className={`transform ${
+              hover ? "transition duration-700 -translate-y-1 ease-in-out" : ""
+            } `}
+          >
+            Conheça nossos diferenciais!
+          </p>
+          <ArrowDown
+            className={`stroke-[3] transform ${
+              hover
+                ? "transition duration-700 translate-y-1 w-5  ease-in-out"
+                : "w-5"
+            }`}
+          />
+        </div>
       </div>
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="bg-black opacity-60 w-full h-full"></div>

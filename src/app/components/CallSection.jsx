@@ -15,28 +15,38 @@ const CallSection = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center relative gap-20 px-5">
-      <Image src={Vector} className="absolute -z-50 opacity-55" />
+    <div className="relative">
+      <div className="min-h-screen flex items-center">
+        <Image
+          src={Vector}
+          className="absolute lg:left-[-100px] -z-50 opacity-55 lg:w-[25rem] lmd:w-[30rem]"
+        />
+        <Image
+          src={Vector}
+          className="hidden lg:block absolute right-[-200px] -z-50 opacity-55 lg:w-[45rem] lmd:w-[50rem]"
+        />
+      </div>
 
-      <div
-        className="flex flex-col items-center cursor-pointer transition-all duration-500 text-white mt-12"
-        onMouseEnter={() => setHover(true)}
-        onMouseLeave={() => setHover(false)}
-        onClick={() => scrollToBottom()}
-      >
+      <div className="absolute z-50 lg:px-24 inset-0 flex items-center">
         <span
           style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.4)" }}
-          className={`text-3xl lg:text-4xl lmd:text-6xl text-center transform ${
+          className={`text-2xl lg:text-2xl lmd:text-4xl xlg:text-5xl text-center transform ${
             hover ? "transition duration-700 -translate-y-1 ease-in-out" : ""
-          } `}
+          }`}
         >
           Veja como podemos te ajudar
         </span>
-        <ArrowDown
-          className={`w-8 h-8 lg:w-11 lmd:w-16 lg:h-11 lmd:h-16 stroke-[3] transform ${
-            hover ? "transition duration-700 translate-y-1 ease-in-out" : ""
-          }`}
-        />
+      </div>
+      <div className="absolute z-50 px-5 lg:px-24 inset-0 flex items-end mb-32 lg:mb-0 lg:items-center justify-end rounded  ">
+        <video
+          className="lg:w-[25rem] lg:h-[15rem] lmd:w-[35rem] lmd:h-[20rem] xlg:w-[50rem] xlg:h-[30rem] opacity-95"
+          controls
+        >
+          <source
+            src="https://ia904701.us.archive.org/32/items/lv_0_20240426164236/lv_0_20240426164236.mp4"
+            type="video/mp4"
+          />
+        </video>
       </div>
     </div>
   );

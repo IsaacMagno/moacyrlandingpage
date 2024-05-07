@@ -37,7 +37,7 @@ body {
 
 /* Main Section */
 .responsive-title {
-  @apply text-2xl lg:text-5xl lmd:text-6xl xlg:text-7xl;
+  @apply text-xl lg:text-2xl lmd:text-3xl xlg:text-4xl;
 }
 
 /* Video Section */

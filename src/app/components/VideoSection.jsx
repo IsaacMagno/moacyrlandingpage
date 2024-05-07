@@ -15,7 +15,7 @@ const VideoSection = () => {
     <div className="relative w-full h-full">
       <div className="absolute inset-0 flex flex-col items-center justify-center gap-12 px-5">
         <h1
-          className="responsive-video-section text-2xl lg:text-4xl lmd:text-5xl"
+          className="responsive-video-section"
           style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.4)" }}
         >
           Como está a saúde financeira de sua empresa hoje?
@@ -26,6 +26,11 @@ const VideoSection = () => {
         >
           Você trabalha, mas não vê o lucro?
         </h1>
+        <span className="responsive-video-section">
+          Invista no seu futuro financeiro com nosso serviço de Planejamento e
+          Controle Financeiro e dê um passo à frente na realização dos seus
+          objetivos empresariais!
+        </span>
         <div
           className="absolute z-50 bottom-10 flex flex-col items-center cursor-pointer transition-all duration-500 text-yellow-500"
           onMouseEnter={() => setHover(true)}
@@ -37,7 +42,7 @@ const VideoSection = () => {
               hover ? "transition duration-700 -translate-y-1 ease-in-out" : ""
             } `}
           >
-            Conheça nossos diferenciais!
+            Veja como trabalhamos
           </p>
           <ArrowDown
             className={`stroke-[3] transform ${

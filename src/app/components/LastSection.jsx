@@ -8,23 +8,29 @@ import Footer from "./layout/Footer";
 const LastSection = () => {
   return (
     <div>
-      <div className="min-h-screen flex flex-col items-center justify-center relative gap-20 z-0">
-        <Image src={Vector} cointain className="absolute -z-50 opacity-60" />
+      <div className="min-h-screen flex flex-col items-center justify-center relative gap-5 z-0">
+        <Image
+          src={Vector}
+          className="absolute -z-50 opacity-60  xlg:w-[60rem] xlg:h-[55rem]"
+        />
         <div className="text-center flex flex-col lg:gap-4 px-5 lg:px-0">
           <h1 className="responsive-title">Gasparini Contabilidade,</h1>
+
           <h2 className="responsive-title">
             há mais de 50 anos ajudando empresas!
           </h2>
         </div>
-        <div className="text-center px-5 lg:px-0 lg:max-w-[50vw]">
-          <span>
-            Invista no seu futuro financeiro com nosso serviço de Planejamento e
-            Controle Financeiro e dê um passo à frente na realização dos seus
-            objetivos empresariais!
-          </span>
-        </div>
+        <video
+          className="lg:w-[25rem] lg:h-[15rem] lmd:w-[35rem] lmd:h-[20rem] xlg:w-[50rem] xlg:h-[30rem] opacity-95 px-5"
+          controls
+        >
+          <source
+            src="https://ia904701.us.archive.org/32/items/lv_0_20240426164236/lv_0_20240426164236.mp4"
+            type="video/mp4"
+          />
+        </video>
         <span>Plano mensal a partir de R$ 150,00</span>
-        <div className="flex absolute bottom-32 lmd:bottom-[2rem] xlg:bottom-20">
+        <div className="flex absolute bottom-32 lmd:bottom-[7rem] xlg:bottom-10">
           <BudgetButton />
         </div>
       </div>

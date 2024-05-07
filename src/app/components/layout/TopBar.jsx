@@ -1,8 +1,9 @@
 "use client";
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import logoIcon from "/public/logoIcon.png";
-import logoText from "/public/logoText.png";
+// import logoIcon from "/public/logoIcon.png";
+// import logoText from "/public/logoText.png";
+import logo from "/public/logo.png";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
@@ -37,6 +38,9 @@ const TopBar = () => {
         target="blank"
       >
         <div>
+          <Image src={logo} />
+        </div>
+        {/* <div>
           <Image
             src={logoText}
             className={`w-[4.6rem] lg:w-[7.5rem] lmd:w-32 xlg:w-40 pt-1  ${
@@ -59,7 +63,7 @@ const TopBar = () => {
               transition: "right 0.3s ease",
             }}
           />
-        </div>
+        </div> */}
       </Link>
 
       <div className="flex items-center gap-2 lg:gap-6 lmd:gap-12">

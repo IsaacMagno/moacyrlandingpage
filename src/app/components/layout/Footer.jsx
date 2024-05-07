@@ -26,7 +26,7 @@ const Footer = () => {
           <Facebook className="mt-3" />
         </Link>
         <Link
-          href="https://www.instagram.com/moacyrgasparinicontabilidade/"
+          href="https://www.instagram.com/planejarfinanceiro"
           target="_blank"
           className="cursor-pointer"
         >

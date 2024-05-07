@@ -32,9 +32,9 @@ export default function Home() {
               />
             </FullpageSection>
           ))}
-          <FullpageSection>
+          {/* <FullpageSection>
             <CallSection />
-          </FullpageSection>
+          </FullpageSection> */}
           <FullpageSection className="flex flex-col justify-center relative">
             <LastSection />
           </FullpageSection>

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="hidden lg:flex min-w-full items-center lg:flex-row px-3 lg:mt-0 lg:py-5 lmd:py-7 xlg:py-10 lg:px-28 lg:justify-between border-t border-zinc-600 absolute bg-[#3b3b3a]">
+    <div className="flex flex-col py-5 min-w-full items-center lg:flex-row px-3 lg:mt-0 lg:py-5 lmd:py-7 xlg:py-10 lg:px-28 lg:justify-between border-t border-zinc-600 absolute bg-[#3b3b3a]">
       <div className="lg:max-w-[30vw]">
         <p className="text-xs lmd:text-sm text-center lg:text-left">
           © 2024 Moacyr Gasparini. Todos os direitos reservados.

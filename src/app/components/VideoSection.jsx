@@ -38,7 +38,7 @@ const VideoSection = () => {
           onClick={() => scrollToBottom()}
         >
           <p
-            className={`transform ${
+            className={` lg:text-2xl lmd:text-3xl xlg:text-4xl transform ${
               hover ? "transition duration-700 -translate-y-1 ease-in-out" : ""
             } `}
           >
@@ -47,8 +47,8 @@ const VideoSection = () => {
           <ArrowDown
             className={`stroke-[3] transform ${
               hover
-                ? "transition duration-700 translate-y-1 w-5  ease-in-out"
-                : "w-5"
+                ? "transition duration-700 translate-y-1 w-10  ease-in-out"
+                : "w-10"
             }`}
           />
         </div>

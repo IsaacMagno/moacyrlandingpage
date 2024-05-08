@@ -8,18 +8,7 @@ import Footer from "./layout/Footer";
 const LastSection = () => {
   return (
     <div>
-      <div className="min-h-screen flex flex-col items-center justify-center relative gap-5 z-0">
-        <Image
-          src={Vector}
-          className="absolute -z-50 opacity-60  xlg:w-[60rem] xlg:h-[55rem]"
-        />
-        <div className="text-center flex flex-col lg:gap-4 px-5 lg:px-0">
-          <h1 className="responsive-title">Gasparini Contabilidade,</h1>
-
-          <h2 className="responsive-title">
-            há mais de 50 anos ajudando empresas!
-          </h2>
-        </div>
+      <div className="min-h-screen flex flex-col items-center pt-20 relative gap-5 z-0">
         <video
           className="lg:w-[25rem] lg:h-[15rem] lmd:w-[35rem] lmd:h-[20rem] xlg:w-[50rem] xlg:h-[30rem] opacity-95 px-5"
           controls
@@ -29,9 +18,20 @@ const LastSection = () => {
             type="video/mp4"
           />
         </video>
-        <span>Plano mensal a partir de R$ 150,00</span>
-        <div className="flex absolute bottom-32 lmd:bottom-[7rem] xlg:bottom-10">
-          <BudgetButton />
+        <div className="relative flex flex-col items-center justify-center max-h-[20rem] flex-grow">
+          <Image src={Vector} className="absolute w-[20rem] z-0 opacity-30" />
+          <div className="text-center flex flex-col px-5 lg:px-0 z-50">
+            <h1 className="responsive-title">Gasparini Contabilidade,</h1>
+
+            <h2 className="responsive-title">
+              há mais de 50 anos ajudando empresas!
+            </h2>
+          </div>
+
+          <span className="mt-20">Plano mensal a partir de R$ 150,00</span>
+          <div className="flex absolute bottom-0 z-50">
+            <BudgetButton />
+          </div>
         </div>
       </div>
       <Footer />

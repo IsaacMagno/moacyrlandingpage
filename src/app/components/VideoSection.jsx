@@ -26,29 +26,29 @@ const VideoSection = () => {
         >
           Você trabalha, mas não vê o lucro?
         </h1>
-        <span className="responsive-video-section">
+        <h1 className="responsive-video-section">
           Invista no seu futuro financeiro com nosso serviço de Planejamento e
           Controle Financeiro e dê um passo à frente na realização dos seus
           objetivos empresariais!
-        </span>
+        </h1>
         <div
-          className="absolute z-50 bottom-10 flex flex-col items-center cursor-pointer transition-all duration-500 text-yellow-500"
+          className="absolute z-50 bottom-20 flex flex-col items-center cursor-pointer transition-all duration-500 text-yellow-500"
           onMouseEnter={() => setHover(true)}
           onMouseLeave={() => setHover(false)}
           onClick={() => scrollToBottom()}
         >
-          <p
+          <h1
             className={` lg:text-2xl lmd:text-3xl xlg:text-4xl transform ${
               hover ? "transition duration-700 -translate-y-1 ease-in-out" : ""
             } `}
           >
             Veja como trabalhamos
-          </p>
+          </h1>
           <ArrowDown
             className={`stroke-[3] transform ${
               hover
-                ? "transition duration-700 translate-y-1 w-10  ease-in-out"
-                : "w-10"
+                ? "transition duration-700 translate-y-1 w-[2.5rem] h-[2.5rem]  ease-in-out"
+                : "w-[2.5rem] h-[2.5rem]"
             }`}
           />
         </div>

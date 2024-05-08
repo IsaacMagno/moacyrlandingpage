@@ -18,7 +18,7 @@ const LastSection = () => {
             type="video/mp4"
           />
         </video>
-        <div className="relative flex flex-col items-center justify-center max-h-[20rem] flex-grow">
+        <div className="relative flex flex-col items-center justify-center max-h-[27rem] flex-grow">
           <Image src={Vector} className="absolute w-[20rem] z-0 opacity-30" />
           <div className="text-center flex flex-col px-5 lg:px-0 z-50">
             <h1 className="responsive-title">Gasparini Contabilidade,</h1>
